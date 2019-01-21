@@ -1,11 +1,7 @@
 {
   "name": "node-starter",
   "version": "1.0.0",
-  "description": "a nodejs practice workspace",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
-  },
+  "description": "Serverless APP",
   "repository": {
     "type": "git",
     "url": "none"
@@ -16,13 +12,9 @@
   "author": "sr3k4nth",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "os": "^0.1.1",
-    "superagent": "^4.0.0-beta.5"
+    "express": "^4.16.3"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
-    "nock": "^10.0.0"
+    "serverless-offline": "^4.1.4"
   }
 }
